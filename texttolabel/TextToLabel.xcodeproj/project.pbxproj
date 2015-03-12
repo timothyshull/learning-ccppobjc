@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A0572F271A47CAAB002E2B62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0572F261A47CAAB002E2B62 /* AppDelegate.m */; };
+		A0572F291A47CAAB002E2B62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0572F281A47CAAB002E2B62 /* main.m */; };
+		A0572F2B1A47CAAB002E2B62 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0572F2A1A47CAAB002E2B62 /* Images.xcassets */; };
+		A0572F2E1A47CAAB002E2B62 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0572F2C1A47CAAB002E2B62 /* MainMenu.xib */; };
+		A0572F3A1A47CAAB002E2B62 /* TextToLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0572F391A47CAAB002E2B62 /* TextToLabelTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0572F341A47CAAB002E2B62 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0572F181A47CAAB002E2B62 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0572F1F1A47CAAB002E2B62;
+			remoteInfo = TextToLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A0572F201A47CAAB002E2B62 /* TextToLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextToLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0572F241A47CAAB002E2B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0572F251A47CAAB002E2B62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0572F261A47CAAB002E2B62 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0572F281A47CAAB002E2B62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0572F2A1A47CAAB002E2B62 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0572F2D1A47CAAB002E2B62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A0572F331A47CAAB002E2B62 /* TextToLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextToLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0572F381A47CAAB002E2B62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0572F391A47CAAB002E2B62 /* TextToLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextToLabelTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0572F1D1A47CAAB002E2B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0572F301A47CAAB002E2B62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0572F171A47CAAB002E2B62 = {
+			isa = PBXGroup;
+			children = (
+				A0572F221A47CAAB002E2B62 /* TextToLabel */,
+				A0572F361A47CAAB002E2B62 /* TextToLabelTests */,
+				A0572F211A47CAAB002E2B62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0572F211A47CAAB002E2B62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0572F201A47CAAB002E2B62 /* TextToLabel.app */,
+				A0572F331A47CAAB002E2B62 /* TextToLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0572F221A47CAAB002E2B62 /* TextToLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A0572F251A47CAAB002E2B62 /* AppDelegate.h */,
+				A0572F261A47CAAB002E2B62 /* AppDelegate.m */,
+				A0572F2A1A47CAAB002E2B62 /* Images.xcassets */,
+				A0572F2C1A47CAAB002E2B62 /* MainMenu.xib */,
+				A0572F231A47CAAB002E2B62 /* Supporting Files */,
+			);
+			path = TextToLabel;
+			sourceTree = "<group>";
+		};
+		A0572F231A47CAAB002E2B62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0572F241A47CAAB002E2B62 /* Info.plist */,
+				A0572F281A47CAAB002E2B62 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0572F361A47CAAB002E2B62 /* TextToLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0572F391A47CAAB002E2B62 /* TextToLabelTests.m */,
+				A0572F371A47CAAB002E2B62 /* Supporting Files */,
+			);
+			path = TextToLabelTests;
+			sourceTree = "<group>";
+		};
+		A0572F371A47CAAB002E2B62 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0572F381A47CAAB002E2B62 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0572F1F1A47CAAB002E2B62 /* TextToLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0572F3D1A47CAAB002E2B62 /* Build configuration list for PBXNativeTarget "TextToLabel" */;
+			buildPhases = (
+				A0572F1C1A47CAAB002E2B62 /* Sources */,
+				A0572F1D1A47CAAB002E2B62 /* Frameworks */,
+				A0572F1E1A47CAAB002E2B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextToLabel;
+			productName = TextToLabel;
+			productReference = A0572F201A47CAAB002E2B62 /* TextToLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0572F321A47CAAB002E2B62 /* TextToLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0572F401A47CAAB002E2B62 /* Build configuration list for PBXNativeTarget "TextToLabelTests" */;
+			buildPhases = (
+				A0572F2F1A47CAAB002E2B62 /* Sources */,
+				A0572F301A47CAAB002E2B62 /* Frameworks */,
+				A0572F311A47CAAB002E2B62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0572F351A47CAAB002E2B62 /* PBXTargetDependency */,
+			);
+			name = TextToLabelTests;
+			productName = TextToLabelTests;
+			productReference = A0572F331A47CAAB002E2B62 /* TextToLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0572F181A47CAAB002E2B62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Tim;
+				TargetAttributes = {
+					A0572F1F1A47CAAB002E2B62 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A0572F321A47CAAB002E2B62 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A0572F1F1A47CAAB002E2B62;
+					};
+				};
+			};
+			buildConfigurationList = A0572F1B1A47CAAB002E2B62 /* Build configuration list for PBXProject "TextToLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0572F171A47CAAB002E2B62;
+			productRefGroup = A0572F211A47CAAB002E2B62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0572F1F1A47CAAB002E2B62 /* TextToLabel */,
+				A0572F321A47CAAB002E2B62 /* TextToLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0572F1E1A47CAAB002E2B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0572F2B1A47CAAB002E2B62 /* Images.xcassets in Resources */,
+				A0572F2E1A47CAAB002E2B62 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0572F311A47CAAB002E2B62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0572F1C1A47CAAB002E2B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0572F291A47CAAB002E2B62 /* main.m in Sources */,
+				A0572F271A47CAAB002E2B62 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0572F2F1A47CAAB002E2B62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0572F3A1A47CAAB002E2B62 /* TextToLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0572F351A47CAAB002E2B62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0572F1F1A47CAAB002E2B62 /* TextToLabel */;
+			targetProxy = A0572F341A47CAAB002E2B62 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0572F2C1A47CAAB002E2B62 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0572F2D1A47CAAB002E2B62 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0572F3B1A47CAAB002E2B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0572F3C1A47CAAB002E2B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A0572F3E1A47CAAB002E2B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextToLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0572F3F1A47CAAB002E2B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TextToLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0572F411A47CAAB002E2B62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextToLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextToLabel.app/Contents/MacOS/TextToLabel";
+			};
+			name = Debug;
+		};
+		A0572F421A47CAAB002E2B62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextToLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextToLabel.app/Contents/MacOS/TextToLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0572F1B1A47CAAB002E2B62 /* Build configuration list for PBXProject "TextToLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0572F3B1A47CAAB002E2B62 /* Debug */,
+				A0572F3C1A47CAAB002E2B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0572F3D1A47CAAB002E2B62 /* Build configuration list for PBXNativeTarget "TextToLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0572F3E1A47CAAB002E2B62 /* Debug */,
+				A0572F3F1A47CAAB002E2B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A0572F401A47CAAB002E2B62 /* Build configuration list for PBXNativeTarget "TextToLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0572F411A47CAAB002E2B62 /* Debug */,
+				A0572F421A47CAAB002E2B62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0572F181A47CAAB002E2B62 /* Project object */;
+}

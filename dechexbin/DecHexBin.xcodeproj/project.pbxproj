@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A052919C1A20134B0089285A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A052919B1A20134B0089285A /* AppDelegate.m */; };
+		A052919E1A20134B0089285A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A052919D1A20134B0089285A /* main.m */; };
+		A05291A01A20134B0089285A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A052919F1A20134B0089285A /* Images.xcassets */; };
+		A05291A31A20134B0089285A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A05291A11A20134B0089285A /* MainMenu.xib */; };
+		A05291AF1A20134B0089285A /* DecHexBinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05291AE1A20134B0089285A /* DecHexBinTests.m */; };
+		A05291BA1A2020500089285A /* LinkGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = A05291B91A2020500089285A /* LinkGroup.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A05291A91A20134B0089285A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A052918D1A20134B0089285A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A05291941A20134B0089285A;
+			remoteInfo = DecHexBin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A05291951A20134B0089285A /* DecHexBin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecHexBin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05291991A20134B0089285A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A052919A1A20134B0089285A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A052919B1A20134B0089285A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A052919D1A20134B0089285A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A052919F1A20134B0089285A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A05291A21A20134B0089285A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A05291A81A20134B0089285A /* DecHexBinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DecHexBinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05291AD1A20134B0089285A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05291AE1A20134B0089285A /* DecHexBinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DecHexBinTests.m; sourceTree = "<group>"; };
+		A05291B81A2020500089285A /* LinkGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkGroup.h; sourceTree = "<group>"; };
+		A05291B91A2020500089285A /* LinkGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkGroup.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A05291921A20134B0089285A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05291A51A20134B0089285A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A052918C1A20134B0089285A = {
+			isa = PBXGroup;
+			children = (
+				A05291971A20134B0089285A /* DecHexBin */,
+				A05291AB1A20134B0089285A /* DecHexBinTests */,
+				A05291961A20134B0089285A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A05291961A20134B0089285A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A05291951A20134B0089285A /* DecHexBin.app */,
+				A05291A81A20134B0089285A /* DecHexBinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A05291971A20134B0089285A /* DecHexBin */ = {
+			isa = PBXGroup;
+			children = (
+				A052919A1A20134B0089285A /* AppDelegate.h */,
+				A052919B1A20134B0089285A /* AppDelegate.m */,
+				A052919F1A20134B0089285A /* Images.xcassets */,
+				A05291A11A20134B0089285A /* MainMenu.xib */,
+				A05291981A20134B0089285A /* Supporting Files */,
+				A05291B81A2020500089285A /* LinkGroup.h */,
+				A05291B91A2020500089285A /* LinkGroup.m */,
+			);
+			path = DecHexBin;
+			sourceTree = "<group>";
+		};
+		A05291981A20134B0089285A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A05291991A20134B0089285A /* Info.plist */,
+				A052919D1A20134B0089285A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A05291AB1A20134B0089285A /* DecHexBinTests */ = {
+			isa = PBXGroup;
+			children = (
+				A05291AE1A20134B0089285A /* DecHexBinTests.m */,
+				A05291AC1A20134B0089285A /* Supporting Files */,
+			);
+			path = DecHexBinTests;
+			sourceTree = "<group>";
+		};
+		A05291AC1A20134B0089285A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A05291AD1A20134B0089285A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A05291941A20134B0089285A /* DecHexBin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05291B21A20134B0089285A /* Build configuration list for PBXNativeTarget "DecHexBin" */;
+			buildPhases = (
+				A05291911A20134B0089285A /* Sources */,
+				A05291921A20134B0089285A /* Frameworks */,
+				A05291931A20134B0089285A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DecHexBin;
+			productName = DecHexBin;
+			productReference = A05291951A20134B0089285A /* DecHexBin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A05291A71A20134B0089285A /* DecHexBinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05291B51A20134B0089285A /* Build configuration list for PBXNativeTarget "DecHexBinTests" */;
+			buildPhases = (
+				A05291A41A20134B0089285A /* Sources */,
+				A05291A51A20134B0089285A /* Frameworks */,
+				A05291A61A20134B0089285A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05291AA1A20134B0089285A /* PBXTargetDependency */,
+			);
+			name = DecHexBinTests;
+			productName = DecHexBinTests;
+			productReference = A05291A81A20134B0089285A /* DecHexBinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A052918D1A20134B0089285A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = TimShull;
+				TargetAttributes = {
+					A05291941A20134B0089285A = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					A05291A71A20134B0089285A = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = A05291941A20134B0089285A;
+					};
+				};
+			};
+			buildConfigurationList = A05291901A20134B0089285A /* Build configuration list for PBXProject "DecHexBin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A052918C1A20134B0089285A;
+			productRefGroup = A05291961A20134B0089285A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A05291941A20134B0089285A /* DecHexBin */,
+				A05291A71A20134B0089285A /* DecHexBinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A05291931A20134B0089285A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05291A01A20134B0089285A /* Images.xcassets in Resources */,
+				A05291A31A20134B0089285A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05291A61A20134B0089285A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A05291911A20134B0089285A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05291BA1A2020500089285A /* LinkGroup.m in Sources */,
+				A052919E1A20134B0089285A /* main.m in Sources */,
+				A052919C1A20134B0089285A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05291A41A20134B0089285A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05291AF1A20134B0089285A /* DecHexBinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A05291AA1A20134B0089285A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A05291941A20134B0089285A /* DecHexBin */;
+			targetProxy = A05291A91A20134B0089285A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A05291A11A20134B0089285A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05291A21A20134B0089285A /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A05291B01A20134B0089285A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A05291B11A20134B0089285A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A05291B31A20134B0089285A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DecHexBin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A05291B41A20134B0089285A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DecHexBin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A05291B61A20134B0089285A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DecHexBinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecHexBin.app/Contents/MacOS/DecHexBin";
+			};
+			name = Debug;
+		};
+		A05291B71A20134B0089285A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DecHexBinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DecHexBin.app/Contents/MacOS/DecHexBin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A05291901A20134B0089285A /* Build configuration list for PBXProject "DecHexBin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05291B01A20134B0089285A /* Debug */,
+				A05291B11A20134B0089285A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05291B21A20134B0089285A /* Build configuration list for PBXNativeTarget "DecHexBin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05291B31A20134B0089285A /* Debug */,
+				A05291B41A20134B0089285A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A05291B51A20134B0089285A /* Build configuration list for PBXNativeTarget "DecHexBinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05291B61A20134B0089285A /* Debug */,
+				A05291B71A20134B0089285A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A052918D1A20134B0089285A /* Project object */;
+}

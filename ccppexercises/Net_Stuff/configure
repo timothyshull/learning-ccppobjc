@@ -1,0 +1,25 @@
+#! /bin/sh
+
+# auto configure script for creating a Makefile
+# written by Simon Amor (3/11/94)
+
+if [ "`uname`" = "HP-UX" ]
+then
+  echo "CFLAGS = -Ae -DHPUX" > Makefile
+else
+  echo "CFLAGS = " > Makefile
+fi
+
+cat << EOF >> Makefile
+CC = cc
+RM = rm
+PROGS = sockbind accept send multi
+
+all:
+	@echo "Please specify a target program"
+	@echo "Programs are: \${PROGS}"
+
+clean: 
+	\${RM} -f \${PROGS}
+
+EOF

@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A085642D1A48FFD8005A70CE /* unnamed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A085642C1A48FFD8005A70CE /* unnamed.jpg */; };
+		A0BC01BA1A48F9530003F6CC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BC01B91A48F9530003F6CC /* AppDelegate.m */; };
+		A0BC01BC1A48F9530003F6CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BC01BB1A48F9530003F6CC /* main.m */; };
+		A0BC01BE1A48F9530003F6CC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BC01BD1A48F9530003F6CC /* Images.xcassets */; };
+		A0BC01C11A48F9530003F6CC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0BC01BF1A48F9530003F6CC /* MainMenu.xib */; };
+		A0BC01CD1A48F9530003F6CC /* NibFunTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0BC01CC1A48F9530003F6CC /* NibFunTests.m */; };
+		A0BC01D71A48FC6B0003F6CC /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A0BC01D61A48FC6B0003F6CC /* images.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0BC01C71A48F9530003F6CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0BC01AB1A48F9530003F6CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0BC01B21A48F9530003F6CC;
+			remoteInfo = NibFun;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A085642C1A48FFD8005A70CE /* unnamed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = unnamed.jpg; path = ../../../../../Desktop/unnamed.jpg; sourceTree = "<group>"; };
+		A0BC01B31A48F9530003F6CC /* NibFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BC01B71A48F9530003F6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BC01B81A48F9530003F6CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0BC01B91A48F9530003F6CC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0BC01BB1A48F9530003F6CC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0BC01BD1A48F9530003F6CC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A0BC01C01A48F9530003F6CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		A0BC01C61A48F9530003F6CC /* NibFunTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NibFunTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0BC01CB1A48F9530003F6CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0BC01CC1A48F9530003F6CC /* NibFunTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NibFunTests.m; sourceTree = "<group>"; };
+		A0BC01D61A48FC6B0003F6CC /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../../../../Desktop/images.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0BC01B01A48F9530003F6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BC01C31A48F9530003F6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A0BC01AA1A48F9530003F6CC = {
+			isa = PBXGroup;
+			children = (
+				A0BC01B51A48F9530003F6CC /* NibFun */,
+				A0BC01C91A48F9530003F6CC /* NibFunTests */,
+				A0BC01B41A48F9530003F6CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0BC01B41A48F9530003F6CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0BC01B31A48F9530003F6CC /* NibFun.app */,
+				A0BC01C61A48F9530003F6CC /* NibFunTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0BC01B51A48F9530003F6CC /* NibFun */ = {
+			isa = PBXGroup;
+			children = (
+				A085642C1A48FFD8005A70CE /* unnamed.jpg */,
+				A0BC01B81A48F9530003F6CC /* AppDelegate.h */,
+				A0BC01B91A48F9530003F6CC /* AppDelegate.m */,
+				A0BC01BD1A48F9530003F6CC /* Images.xcassets */,
+				A0BC01BF1A48F9530003F6CC /* MainMenu.xib */,
+				A0BC01D61A48FC6B0003F6CC /* images.jpeg */,
+				A0BC01B61A48F9530003F6CC /* Supporting Files */,
+			);
+			path = NibFun;
+			sourceTree = "<group>";
+		};
+		A0BC01B61A48F9530003F6CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0BC01B71A48F9530003F6CC /* Info.plist */,
+				A0BC01BB1A48F9530003F6CC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0BC01C91A48F9530003F6CC /* NibFunTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0BC01CC1A48F9530003F6CC /* NibFunTests.m */,
+				A0BC01CA1A48F9530003F6CC /* Supporting Files */,
+			);
+			path = NibFunTests;
+			sourceTree = "<group>";
+		};
+		A0BC01CA1A48F9530003F6CC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0BC01CB1A48F9530003F6CC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0BC01B21A48F9530003F6CC /* NibFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0BC01D01A48F9530003F6CC /* Build configuration list for PBXNativeTarget "NibFun" */;
+			buildPhases = (
+				A0BC01AF1A48F9530003F6CC /* Sources */,
+				A0BC01B01A48F9530003F6CC /* Frameworks */,
+				A0BC01B11A48F9530003F6CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NibFun;
+			productName = NibFun;
+			productReference = A0BC01B31A48F9530003F6CC /* NibFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0BC01C51A48F9530003F6CC /* NibFunTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0BC01D31A48F9530003F6CC /* Build configuration list for PBXNativeTarget "NibFunTests" */;
+			buildPhases = (
+				A0BC01C21A48F9530003F6CC /* Sources */,
+				A0BC01C31A48F9530003F6CC /* Frameworks */,
+				A0BC01C41A48F9530003F6CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0BC01C81A48F9530003F6CC /* PBXTargetDependency */,
+			);
+			name = NibFunTests;
+			productName = NibFunTests;
+			productReference = A0BC01C61A48F9530003F6CC /* NibFunTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0BC01AB1A48F9530003F6CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Tim;
+				TargetAttributes = {
+					A0BC01B21A48F9530003F6CC = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					A0BC01C51A48F9530003F6CC = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = A0BC01B21A48F9530003F6CC;
+					};
+				};
+			};
+			buildConfigurationList = A0BC01AE1A48F9530003F6CC /* Build configuration list for PBXProject "NibFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0BC01AA1A48F9530003F6CC;
+			productRefGroup = A0BC01B41A48F9530003F6CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0BC01B21A48F9530003F6CC /* NibFun */,
+				A0BC01C51A48F9530003F6CC /* NibFunTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0BC01B11A48F9530003F6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BC01BE1A48F9530003F6CC /* Images.xcassets in Resources */,
+				A0BC01C11A48F9530003F6CC /* MainMenu.xib in Resources */,
+				A085642D1A48FFD8005A70CE /* unnamed.jpg in Resources */,
+				A0BC01D71A48FC6B0003F6CC /* images.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BC01C41A48F9530003F6CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0BC01AF1A48F9530003F6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BC01BC1A48F9530003F6CC /* main.m in Sources */,
+				A0BC01BA1A48F9530003F6CC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0BC01C21A48F9530003F6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0BC01CD1A48F9530003F6CC /* NibFunTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0BC01C81A48F9530003F6CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0BC01B21A48F9530003F6CC /* NibFun */;
+			targetProxy = A0BC01C71A48F9530003F6CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0BC01BF1A48F9530003F6CC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0BC01C01A48F9530003F6CC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0BC01CE1A48F9530003F6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		A0BC01CF1A48F9530003F6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		A0BC01D11A48F9530003F6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NibFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0BC01D21A48F9530003F6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NibFun/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0BC01D41A48F9530003F6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NibFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NibFun.app/Contents/MacOS/NibFun";
+			};
+			name = Debug;
+		};
+		A0BC01D51A48F9530003F6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = NibFunTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NibFun.app/Contents/MacOS/NibFun";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0BC01AE1A48F9530003F6CC /* Build configuration list for PBXProject "NibFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BC01CE1A48F9530003F6CC /* Debug */,
+				A0BC01CF1A48F9530003F6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0BC01D01A48F9530003F6CC /* Build configuration list for PBXNativeTarget "NibFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BC01D11A48F9530003F6CC /* Debug */,
+				A0BC01D21A48F9530003F6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0BC01D31A48F9530003F6CC /* Build configuration list for PBXNativeTarget "NibFunTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0BC01D41A48F9530003F6CC /* Debug */,
+				A0BC01D51A48F9530003F6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0BC01AB1A48F9530003F6CC /* Project object */;
+}

@@ -1,0 +1,18 @@
+### HPUX
+# CFLAGS = -Ae -DHPUX
+# CC = cc
+
+### Linux
+CFLAGS =
+CC = gcc
+
+RM = rm
+PROGS = sockbind accept send multi
+
+all:
+	@echo "Please specify a target program"
+	@echo "Programs are:"
+	@echo "${PROGS}"
+
+clean: 
+	${RM} -f 
